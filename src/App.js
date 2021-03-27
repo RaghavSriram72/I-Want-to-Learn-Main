@@ -43,6 +43,16 @@ function App() {
           </Switch>
         </BrowserRouter>
       </header>
+    <body>
+
+        <script src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+        https://firebase.google.com/docs/web/setup#available-libraries
+        <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+
+        <script src="/__/firebase/init.js"></script>
+        
+     </body>
     </div>
   );
 }
