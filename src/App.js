@@ -49,6 +49,8 @@ function App() {
 
         https://firebase.google.com/docs/web/setup#available-libraries
         <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
 
         <script src="/__/firebase/init.js"></script>
         
