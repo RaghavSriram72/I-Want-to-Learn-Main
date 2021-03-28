@@ -1,0 +1,75 @@
+.flowChart {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    /*margin-top: -50px;*/
+    width: 100%;
+}
+
+.flowChartItem {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learningStep {
+    background-color: lightpink;/* to be customized*/
+    border: 1px solid deeppink;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    margin-top: 0px;
+    width: 75px;
+    background: blue;
+    height: 1px;
+    float: left;
+}
+
+.point {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid blue;
+    float: right;
+}
+
+.submitChangesButton {
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.deleteElementButton {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textInputBox {
+    height: 30px;
+}
+
